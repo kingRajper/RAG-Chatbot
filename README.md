@@ -3,7 +3,8 @@
 RAG-Chatbot is an advanced conversational AI system that combines Retrieval-Augmented Generation (RAG) with general language model capabilities to provide precise answers to user queries. It first searches for relevant information in a vector store (Chroma) containing processed documents. If the relevant context is found, the chatbot retrieves it and provides a context-aware response. If no relevant information is found, it defaults to generating a general response, just like any typical large language model (LLM) such as GPT-4.
 
 <h3> Features </h3>
-* __Context-Aware Retrieval:__ First attempts to retrieve the answer from a vector store using context from previously processed documents.
+
+* __Context-Aware Retrieval__ First, it attempts to retrieve the answer from a vector store using context from previously processed documents.
 
 * __Fallback to General LLM:__ If the context isn't available in the vector store, the chatbot generates an answer using GPT-4, similar to standard LLMs.
 
