@@ -15,15 +15,15 @@ RAG-Chatbot is an advanced conversational AI system that combines Retrieval-Augm
 * __Persistent Vector Store:__ Stores document embeddings and metadata to avoid repetitive processing and enable efficient querying.
 
 <h3> Requirements</h3>
-*Python 3.7+
-*Libraries:
-*langchain-core
-*langchain-openai
-*langchain-chroma
-*langhcain-community
-*dotenv
-*openai
-*logging
+* Python 3.7+
+* Libraries:
+* langchain-core
+* langchain-openai
+* langchain-chroma
+* langhcain-community
+* dotenv
+* openai
+* logging
 
 <h3>Installation</h3>
 1 __Install the required dependencies__
